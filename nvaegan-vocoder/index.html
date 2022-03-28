@@ -28,12 +28,12 @@
     <section class="main-content">
       <h1 id=""><center> NVAEGAN-Vocoder: A Waveform Generation Model Based on Deep Hierarchical VAE </center></h1>
 
-<center> Xueling Liu<sup>1</sup>, Yu Gao<sup>1</sup>, Jiancheng Ye<sup>1</sup> </center>
-<center> <sup>1</sup> AI Innovation Center, Midea Group (Shanghai) Co.,Ltd., China</center>
+<center> Xueling Liu, Yu Gao, Jiancheng Ye </center>
+<center> AI Innovation Center, Midea Group (Shanghai) Co.,Ltd., China </center>
 
 
 <h2 id="abstract">Abstract</h2>
-<p>Several GAN-based vocoders has achieved success in fast parallel speech generation. Most of these models focus on adding or modifying multi-resolution discriminators on time and frequency domain to enhance speech quality. In this paper, we propose NVAEGAN-Vocoder, a neural vocoder which can synthesize high-quality speech from mel-spectrograms. We introduce deep hierarchical VAE to vocoders and extract latent variables from original waveforms. Meanwhile, in this work, we preserve the generative and adversarial structure and directly adopt spectrogram discriminator proposed by previous GAN-based model without modification. Experimental results show that it is possible to combine deep hierarchical VAE and GAN to achieve fast high-quality waveform reconstruction with small number of parameters (4.13M). Mean Opinion Score(MOS) of our proposed model outperforms other competing models in both seen domain and unseen domain. Furthermore, we measured inference speed of NVAEGAN-Vocoder and demonstrated the real-time speech synthesis capacity of our model.</p>
+<p>Several GAN-based vocoders has achieved success in fast parallel speech generation. To enhance speech quality, many of these models focus on adding or modifying multi-resolution discriminators on time and frequency domain. In this paper, we propose NVAEGAN-Vocoder, a neural vocoder introduces deep hierarchical VAE to waveform generation by extracting latent variables from original waveforms. Meanwhile, in this work, we preserve the generative adversarial structure and directly adopt multi-resolution spectrogram discriminators proposed by previous GAN-based model. Experimental results show that it is possible to combine deep hierarchical VAE and GAN to achieve fast high-fidelity waveform reconstruction with small number of parameters (4.13M). Mean Opinion Score(MOS) results show our proposed model is highly competitive among other models evaluated in experiments, in both seen domain and unseen domain. Furthermore, we measured inference speed of NVAEGAN-Vocoder and demonstrated the real-time speech synthesis capacity of our model.</p>
 
 <h2><p class="toc_title">Contents</p></h2>
 <div id="toc_container">
